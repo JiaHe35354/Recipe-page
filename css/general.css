@@ -1,0 +1,88 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+
+  --color-stone-100: hsl(30, 54%, 90%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-900: hsl(24, 5%, 18%);
+
+  --color-brown: hsl(14, 45%, 36%);
+
+  --color-rose-dark: hsl(332, 51%, 32%);
+  --color-rose-light: hsl(330, 100%, 98%);
+}
+
+/* GENERAL SETTING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: var(--color-stone-100);
+  color: var(--color-stone-600);
+}
+
+/* GENERAL REUSABLE COMPONENTS */
+.mb-small {
+  margin-bottom: 1.5rem;
+}
+.mb-medium {
+  margin-bottom: 2rem;
+}
+
+/* TYPOGRAPHY */
+.heading-primary,
+.heading-secondary {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  color: var(--color-stone-900);
+}
+
+.heading-secondary {
+  color: var(--color-brown);
+  font-size: 2.6rem;
+}
+
+.heading-tertiary {
+  color: var(--color-rose-dark);
+  font-size: 2rem;
+}
+
+.paragraph {
+  line-height: 1.5;
+}
+
+/* LIST STYLE */
+ol,
+ul {
+  margin-left: 2.3rem;
+}
+
+li {
+  padding-left: 1.8rem;
+}
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,32 @@
+@media (max-width: 25em) {
+  html {
+    font-weight: 50%;
+  }
+
+  .recipe {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .header-text {
+    padding: 0 3.2rem;
+  }
+
+  .container {
+    padding: 0 3.5rem 3.5rem 3.5rem;
+  }
+
+  .recipe-img {
+    border-radius: 0;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
