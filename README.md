@@ -29,7 +29,7 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 
 ### Links
 
-- Solution URL: [My Github repo](https://github.com/JiaHe35354/Recipe-page)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/responsive-page-with-css-xnSPa9znhO)
 - Live Site URL: [recipe-page-jiah.netlify.app](https://recipe-page-jiah.netlify.app/)
 
 ## My process
